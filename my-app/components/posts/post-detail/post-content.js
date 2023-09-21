@@ -14,9 +14,9 @@ const imagePath = `/images/posts/${DUMMY_POST.slug}/${DUMMY_POST.image}`;
 
 
     return(
-        <article>
-            <PostHeader title='' image={imagePath} />
-            CONTENT
+        <article className={classes.content} >
+            <PostHeader title={DUMMY_POST.title} image={imagePath} />
+            {DUMMY_POST.content}
         </article>
     )
 }
