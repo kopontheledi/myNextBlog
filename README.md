@@ -1,1 +1,1 @@
-# section11
+This is a Blog Post on Next.js that I worked along with on my Udemy course
